@@ -1,18 +1,48 @@
 # SQA-Portfolio
 
-12년차 SQA 엔지니어의 자동화 및 AI 기반 테스트 워크플로우 포트폴리오입니다.
-자동차 전장 도메인의 A-SPICE 기반 검증 경험과 스마트팩토리 SQA 프로세스 설계 경험을 보유하고 있습니다.
+12년차 Quality Engineering Architect의 자동화 및 AI 기반 테스트 워크플로우 포트폴리오입니다.
+자동차 전장 도메인 A-SPICE 기반 검증 경험과 스마트팩토리 QE 프로세스 설계 경험을 보유하고 있습니다.
 
 ---
 
 ## 🛠 기술 스택
 
-- **언어:** Python (pytest, pywinauto, pandas)
-- **테스트:** Robot Framework, 블랙박스 테스트 기법 (동등분할, 경계값분석, 상태전이, Use Case)
-- **AI 워크플로우:** GitHub Copilot + Atlassian Remote MCP 연동
-- **인프라:** Docker, Zabbix
-- **협업 도구:** Jira, Confluence, AIO Tests, GitHub, Codebeamer
-- **자격증:** ISTQB Foundation Level
+**자동화 & 테스트 엔지니어링**
+- Python (pytest, pywinauto, Flask)
+- Robot Framework
+- uiautomation (Windows 네이티브 GUI 탐색)
+- Excel VBA
+
+**AI & LLM Toolchain**
+- GitHub Copilot Agent + Atlassian Remote MCP 연동
+- LLM 기반 TC 도출 파이프라인 (2단계 구조, 14컬럼 포맷)
+
+**DevOps & Platform**
+- Jira Cloud Premium (커스텀 워크플로우, JQL 대시보드)
+- Confluence Admin (스페이스 설계, 권한 체계, 매크로)
+- Jira-GitHub Enterprise 조직 연동
+- Bitbucket (저장소 운영)
+- AIO Tests (TC/사이클/결과 관리)
+
+**자동차 전장 도메인**
+- A-SPICE SWE.4 (CL 심사 직접 발표/인터뷰 대응)
+- V-Model (SW/SI/System/차량 통합 테스트 전 레벨)
+- CAN/LIN 통신 검증
+- DTC Diagnostic Tool 검증
+- Vector CAST, IPG CarMaker, Codebeamer
+- ISTQB Foundation Level
+
+**스마트팩토리 도메인**
+- MELSEC PLC 통신 분석/검증
+- SECS/GEM (시뮬레이션 환경 한정)
+- SEMI E84 Signal 해석
+
+**방법론**
+- A-SPICE SWE.4
+- V-Model 기반 테스트 레벨 설계
+- 블랙박스 테스트 기법 (동등분할, 경계값분석, 상태전이, Use Case)
+- AI 보조 TC 도출 → 사람 검토 → AIO Tests 등록 파이프라인
+- Shift-Left QE
 
 ---
 
@@ -22,8 +52,8 @@
 |------|------|
 | `python-practice/` | Python 코딩 연습 (프로그래머스 등) |
 | `automation/` | GUI 자동화 예제 (pywinauto + pytest) |
-| `tc-templates/` | TC 도출 프롬프트 및 템플릿 |
-| `tools/` | 업무 유틸리티 (자출제 앱 등) |
+| `tc-templates/` | TC 도출 방법론 문서 |
+| `tools/` | 업무 유틸리티 예제 |
 
 ---
 
@@ -31,76 +61,64 @@
 
 ### 한화모멘텀 SW개발팀 — 선임연구원 / SQA Lead (2022~현재)
 
-**SQA 프로세스 구축 (0→1)**
+**QE 프로세스 구축 (0→1)**
 - SW TC 표준 포맷 최초 수립 및 배포
-- 5단계 마일스톤 품질관리 프로세스 설계 (분석→설계→구축→테스트→검수)
-- 요구사항명세서 + 체크리스트 양식 표준화
+- 5단계 마일스톤 품질관리 프로세스 설계
 - Jira + Confluence 도입 및 연구소 전 인원 교육
 
 **시스템 구축 및 운영**
 - Atlassian 관리자 운영 (47명, 2022~현재)
-- Jira Service Management 기반 CEM 대시보드 구축 (고객 접수/대응 이력 관리, 대표이사 보고)
-- SW외주관리 체계 구축 — 외주 개발사 산출물 점검 시스템, 역량 지표화, 월간/대표이사 보고
-- GitHub Copilot + Atlassian Remote MCP 연동 검증 및 팀 가이드 배포 (47명)
-- Jira-GitHub Enterprise 조직 레벨 연동 완료
+- Jira Service Management 기반 CEM 대시보드 구축 (대표이사 보고)
+- SW외주관리 체계 구축 및 역량 지표화
+- GitHub Copilot + Atlassian Remote MCP 연동 검증 및 팀 가이드 배포
 
 **AI 워크플로우 설계**
-- AI 기반 TC 도출 파이프라인 구축 (SRS → Copilot → 사람 검토 → AIO Tests 등록)
-- 요구사항 추적 매트릭스(RTM) 자동화 구축
-- SQA 기법 개발 (AI 활용 요구사항 자동화, TC 자동화)
+- LLM 기반 TC 도출 파이프라인 구축 (2단계 구조, 14컬럼 포맷)
+- pywinauto + pytest 기반 Windows 네이티브 GUI 자동화 구현
+- Jira-GitHub Enterprise 조직 레벨 연동 완료
 
 **프로젝트 SQA 수행**
 - 삼성 SDC FMM 8.6G (Stocker Control System) — 통합 검증, 고객시연 (2022~2023)
-- GM BCDC WES (Warehouse System) — FAT 이벤트 대응 (2025)
-- 이차전지 FMS 선행 개발 프로젝트 SQA (2024)
-- EFEM AI 비전검사기 — AI 엔지니어 협업, 외주업체 미팅
-- 반도체 장비 EFEM (HMI) — TC 53개 + Cross TC 4개, Re-Test 완료 (2025)
-- 피렐리/금호타이어 수주 프로젝트 — 품질계획서, SRS, 유즈케이스, 네트워크 구성도 작성
-
-**파트장 역할**
-- 5명 규모 파트 리딩 (초기)
+- 이차전지 FMS 선행 개발 프로젝트 (2024)
+- EFEM AI 비전검사기 — AI 엔지니어 협업, 외주업체 평가, 고객사 발표 (2025)
+- GM BCDC WES — PL 역할, FAT 이벤트 대응 (2025)
+- Absolics HVM EFEM 2.0 — TC 53개 + Cross TC 4개, Re-Test 완료 (2025)
+- 삼성전기 SEMCO EFEM — TC 설계 및 테스트 수행 (2026)
+- H-MOVE OCS CIM — 품질계획서, TC 61개, SRS 추적성 관리 (2026)
 
 ---
 
 ### LS오토모티브 S/W평가팀 — 선임연구원 (2019~2022)
 
-- V-Model 기반 자동차 전장제품 검증 (수주~양산 전 단계)
-- A-SPICE SWE.4 기반 테스트 프로세스 운영
-- 지문인증 제어기 Test Bench 구축 및 검증
+- V-Model 전 레벨 자동차 전장제품 검증 수행
+- HKMC 최초 지문인증 모듈 탑재 차량 검증 및 Test Bench 구축
 - 해외 OEM ADAS 제품군 SW Qualification 매니징
+- 미국 고객사 합동 실차평가 출장 (2021)
 - 결함 검출 약 250건, OEM 합동평가 10회 완료
-- 사내 프로젝트 Risk 관리체계 TFT 담당
 
 ---
 
 ### ㈜큐스팟 SWQT팀 — 선임연구원/파트장 (2013~2019)
 
-- LG전자 VS사업부 A-SPICE CL3 인증 취득 및 CMMI 인증 검증 리더
-- HKMC AVN 양산 40종 완료, Zero 이슈
-- A-SPICE Audit 100% 달성 (12개 프로젝트, 8번 심사 대응)
+- LG전자 VS사업부 A-SPICE CL1/CL2 인증 취득 — 심사관 앞 직접 발표/인터뷰 대응
+- HKMC AVN 양산 40종 Zero 이슈 달성
+- A-SPICE Audit 8회 대응 (12개 프로젝트)
 - 결함 검출 약 4,000건 (연평균 700건)
-- TC 요구사항 대비 300% 개발
-- LG 자체 CAN 통신/DTC 진단/자동화 Test Tool 검증 및 배포 승인
-- 독일 프랑크푸르트 자동화 검증 환경 구축 (2014)
-- 미국 고객사 합동 실차평가 출장 (2021)
+- LG전자 독일 프랑크푸르트 자동화 검증 환경 직접 구축 (2014)
+- 미국 고객사 합동 실차평가 (2021)
+- 5년 연속 팀 내 최우수 사원상
 
 ---
 
-## 📐 적용 방법론
+## 📐 도메인 경험
 
-- A-SPICE SWE.4
-- V-Model 기반 테스트 레벨 설계
-- 블랙박스 테스트 기법 (동등분할, 경계값분석, 상태전이, Use Case)
-- AI 보조 TC 도출 → 사람 검토 → AIO Tests 등록 파이프라인
-- Agile 방법론 기반 산출물 리스크 관리
+**자동차 전장 (2013~2022)**
+- AVN/인포테인먼트, ADAS, 지문인증, CAN/LIN 통신, DTC Diagnostic
 
----
-
-## 🏭 도메인 경험
-
-- **반도체 장비:** EFEM HMI, AI 비전검사기, Stocker Control System
-- **스마트팩토리:** WES, FMS, WMS/WCS
-- **자동차 전장:** AVN/인포테인먼트, ADAS, 지문인증, CAN/LIN 통신, Diagnostic
+**스마트팩토리 (2022~현재)**
+- 클린물류: EFEM, CIM, AMHS, OHT/OCS
+- 이차전지: FMS, Formation, Tray 관리
+- 일반물류: WES, WMS, MES, AGV/AMR
 
 ---
 
@@ -108,7 +126,7 @@
 
 - 결함 검출 누적 4,000건+ (자동차 전장 도메인)
 - HKMC AVN 양산 40종 Zero 이슈 달성
-- A-SPICE Audit 100% 달성 (12개 프로젝트)
+- A-SPICE Audit 8회 대응 (12개 프로젝트)
 - TC 요구사항 대비 300% 개발
 - Jira/Confluence 전사 확대 운영 (47명)
 - GitHub Copilot + Atlassian MCP 연동 팀 배포 완료
