@@ -49,7 +49,7 @@
 ## 📁 구성
 
 | 폴더 | 내용 |
-|------|------|
+|---|---|
 | `python-practice/` | Python 코딩 연습 (프로그래머스 등) |
 | `automation/` | GUI 자동화 예제 (pywinauto + pytest) |
 | `tc-templates/` | TC 도출 방법론 문서 |
@@ -78,20 +78,20 @@
 - Jira-GitHub Enterprise 조직 레벨 연동 완료
 
 **프로젝트 SQA 수행**
-- 삼성 SDC FMM 8.6G (Stocker Control System) — 통합 검증, 고객시연 (2022~2023)
+- 디스플레이 대기업 A사 FMM 8.6G (Stocker Control System) — 통합 검증, 고객시연 (2022~2023)
 - 이차전지 FMS 선행 개발 프로젝트 (2024)
 - EFEM AI 비전검사기 — AI 엔지니어 협업, 외주업체 평가, 고객사 발표 (2025)
-- GM BCDC WES — PL 역할, FAT 이벤트 대응 (2025)
-- Absolics HVM EFEM 2.0 — TC 53개 + Cross TC 4개, Re-Test 완료 (2025)
-- 삼성전기 SEMCO EFEM — TC 설계 및 테스트 수행 (2026)
-- H-MOVE OCS CIM — 품질계획서, TC 61개, SRS 추적성 관리 (2026)
+- 글로벌 완성차 OEM B사 WES — PL 역할, FAT 이벤트 대응 (2025)
+- 글라스코어 제조 고객사 HVM EFEM 2.0 — TC 53개 + Cross TC 4개, Re-Test 완료 (2025)
+- 전자부품 대기업 C사 EFEM — TC 설계 및 테스트 수행 (2026)
+- 글라스 반송(OCS/CIM) 시스템 프로젝트 — 품질계획서, TC 61개, SRS 추적성 관리 (2026)
 
 ---
 
 ### LS오토모티브 S/W평가팀 — 선임연구원 (2019~2022)
 
 - V-Model 전 레벨 자동차 전장제품 검증 수행
-- HKMC 최초 지문인증 모듈 탑재 차량 검증 및 Test Bench 구축
+- 국내 완성차 OEM 최초 지문인증 모듈 탑재 차량 검증 및 Test Bench 구축
 - 해외 OEM ADAS 제품군 SW Qualification 매니징
 - 미국 고객사 합동 실차평가 출장 (2021)
 - 결함 검출 약 250건, OEM 합동평가 10회 완료
@@ -100,11 +100,11 @@
 
 ### ㈜큐스팟 SWQT팀 — 선임연구원/파트장 (2013~2019)
 
-- LG전자 VS사업부 A-SPICE CL1/CL2 인증 취득 — 심사관 앞 직접 발표/인터뷰 대응
-- HKMC AVN 양산 40종 Zero 이슈 달성
+- 글로벌 전자 대기업 D사 VS사업부 A-SPICE CL1/CL2 인증 취득 — 심사관 앞 직접 발표/인터뷰 대응
+- 국내 완성차 OEM AVN 양산 40종 Zero 이슈 달성
 - A-SPICE Audit 8회 대응 (12개 프로젝트)
 - 결함 검출 약 4,000건 (연평균 700건)
-- LG전자 독일 프랑크푸르트 자동화 검증 환경 직접 구축 (2014)
+- 유럽 소재 고객사 자동화 검증 환경 직접 구축 (2014)
 - 미국 고객사 합동 실차평가 (2021)
 - 5년 연속 팀 내 최우수 사원상
 
@@ -125,7 +125,7 @@
 ## 📊 주요 수치 성과
 
 - 결함 검출 누적 4,000건+ (자동차 전장 도메인)
-- HKMC AVN 양산 40종 Zero 이슈 달성
+- 국내 완성차 OEM AVN 양산 40종 Zero 이슈 달성
 - A-SPICE Audit 8회 대응 (12개 프로젝트)
 - TC 요구사항 대비 300% 개발
 - Jira/Confluence 전사 확대 운영 (47명)
